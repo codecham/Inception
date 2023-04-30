@@ -12,3 +12,6 @@ sudo apt-get update
 
 sudo apt-get install docker-ce docker-ce-cli containerd.io
 
+# after install you need run "sudo chmod 666 /var/run/docker.sock"
+
+# Then run "docker run hello-world"
